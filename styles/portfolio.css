@@ -47,10 +47,19 @@ p {
   margin: 0;
   color: #272142;
 }
-.btn-contact {
+.btn-branding {
   background: var(--contact-color);
   border-radius: 4px;
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--contact-color);
+  border-radius: 4px;
+  border: 1px solid var(--contact-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
